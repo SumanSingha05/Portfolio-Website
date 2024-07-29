@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="/Resume/MyResume2024.pdf" target="_blank" class="resume-button">My Resume</a></li>
+            </ul>
+        </nav>
+        <button id="dark-mode-toggle">Dark Mode</button>
+    </header>
+
+    <section id="home">
+        <div class="intro">
+            <h1>Hello, I'm Suman Singha</h1>
+            <p> Full Stack Web Developer | Competitive Programmer</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my portfolio. I am a passionate web developer with 
+        experience in building dynamic and responsive websites. Currently I am in 2nd year of my college exploring new things in wev development field. As well as I am practicing competitive programming clearing the basic fundamentals of C and C++.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project">
+                <h3>Blog Website</h3>
+                <p>The "Blog Website" is a dynamic platform where users can securely sign in to write, publish, and edit their own blogs with pictures. It fosters community engagement by allowing users to read blogs written by others, promoting knowledge sharing and interaction. The user-friendly interface is responsive and accessible on desktops, tablets, and mobile phones. Users have full control over their content, with options to add, edit, and manage their posts. Future enhancements could include comment sections, social sharing options, and analytics for tracking post performance.</p>
+            </div>
+            <div class="project">
+                <h3>Todo List</h3>
+                <p>The "Todo List" project is a user-friendly application for efficient task management. Users can add new tasks, edit them as needed, and tick mark tasks upon completion, and also delete the task as per their requirement. This flexibility allows for easy updates and progress tracking. The intuitive interface enhances productivity by making task management straightforward and effective.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Languages: C, C++, JavaScript</li>
+            <li> Front-End: HTML, CSS, VanillaJs</li>
+            <li> UI Libraries: ReactJs</li>
+            <li> CSS Frameworks: TailwindCSS, Bootstrap</li>
+            <li>Version Control: Git, Github , Github Pages</li>
+            <li>Databases: MongoDB, PostgreSQL, MySQL</li>
+            <li>Back-End: NodeJS, ExpressJs, Firebase(Managed Backend) , Appwrite(Managed Backend)</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>Bachelors Of Technology (B.Tech)</h3>
+            <p>Government College of Engineering and Leather Technology (2023 - 2027)</p>
+        
+        </div>
+        <div class="education-item">
+            <h3>Higher Secondary (12th)</h3>
+            <p>Farakka Barrage Project Higher Secondary School (2021 - 2023)</p>
+        
+        </div>
+        <!-- Add more education items as needed -->
+    </section>
+
+    <section id="socials">
+        <h2>Connect with Me</h2>
+        <div class="socials-container">
+            <a href="https://www.linkedin.com/in/suman-singha-72b6a2273/" target="_blank" class="social-icon">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/SumanSingha05" target="_blank" class="social-icon">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/github.svg" alt="GitHub">
+            </a>
+            <a href="https://x.com/SumanSingha24" target="_blank" class="social-icon">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/twitter.svg" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com/suman_singha05" target="_blank" class="social-icon">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/instagram.svg" alt="Instagram">
+            </a>
+            <!-- Add more social media links as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me: </h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Suman Singha. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
